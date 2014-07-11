@@ -1,1 +1,156 @@
-Hello Wolrd
+<!DOCTYPE html>
+<html lang="en" ng-app="resumeApp">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hugo Pineda | Senior Developer</title>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootswatch/3.1.1/yeti/bootstrap.min.css"/>
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.16/angular.min.js"></script>
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <style>
+        @media (min-width: 768px) {
+            .header-contact {
+                margin-top: 30px;
+            }
+        }
+        @media (max-width: 767px) {
+            .header-img {
+                float: right;
+            }
+        }
+        @media screen {
+            body {
+                font-size: 16px;
+            }
+            .print {
+                display: none;
+            }
+        }
+        @media print {
+            body {
+                font-size: 14px;
+            }
+            .screen {
+                display: none;
+            }
+        }
+        .header-img {
+            margin-top: 15px;
+        }
+        ul {
+            list-style-type: none;
+            margin-left: 0;
+            padding-left: 0;
+        }
+        h4 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body class="container" ng-controller="AppController">
+
+<div class="row">
+    <div class="col-sm-2 header-img">
+        <img src="hugui-sq.jpg" class="hidden-xs img-thumbnail">
+        <img src="hugui-sq-sm.jpg" class="visible-xs img-thumbnail">
+    </div>
+    <div class="col-sm-5">
+        <h2>Hugo Pineda</h2>
+        <em>Senior Developer</em> <br/>
+        Phoenix, AZ
+    </div>
+    <div class="col-sm-5 header-contact">
+        <a href="mailto:hpineda83@gmail.com" class="screen">hpineda83@gmail.com</a>
+        <span class="print">hpineda83@gmail.com</span>
+        <br/>
+        <span>(602) 451-1118</span>
+        <br/>
+        hugo.pineda.83 (Skype)
+    </div>
+
+</div>
+
+<hr/>
+
+<div class="row">
+    <div class="col-sm-2">
+        <h4><em>Technical Skills</em></h4>
+    </div>
+    <div class="col-sm-3 col-xs-6">
+        <ul>
+            <li ng-repeat="skill in data.skills1">
+                {{skill.name}} <em>({{getYears(skill.since)}} yr)</em>
+            </li>
+        </ul>
+    </div>
+    <div class="col-sm-3 col-xs-6">
+        <ul>
+            <li ng-repeat="skill in data.skills2">
+                {{skill.name}} <em>({{getYears(skill.since)}} yr)</em>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<hr/>
+
+<div class="row">
+    <div class="col-sm-2">
+        <h4><em>Experience</em></h4>
+    </div>
+
+    <div ng-repeat="job in data.experience">
+        <div class="col-sm-10">
+            <p><strong>{{job.title}} at <em>{{job.company}}</em> </strong>
+                ({{job.location}}, {{job.timeRange}})</p>
+
+            <p>{{job.description}}</p>
+
+            <p>
+                <em>Technologies: </em> {{job.technologies}}
+            </p>
+            <br/>
+        </div>
+
+        <div class="col-sm-2"></div>
+    </div>
+
+</div>
+
+<hr/>
+
+<div class="row">
+    <div class="col-sm-2">
+        <h4><em>Education</em></h4>
+    </div>
+
+    <div class="col-sm-10">
+        <strong>Civil Industrial Engineer with a concentration in Computer Science 2002 to 2008</strong>
+        <br/>
+        <span>Universidad de La Frontera (Temuco, Chile)</span>
+    </div>
+</div>
+
+<hr/>
+
+<div class="row">
+    <div class="col-sm-2"></div>
+    <div class="col-sm-10">
+        <a href="Hugo%20Pineda%20-%20Senior%20Developer.pdf" class="screen">
+            <i class="fa fa-file-pdf-o"></i>
+            Download Resume as PDF
+        </a>
+    </div>
+</div>
+
+<br/>
+
+<script src="app.js"></script>
+
+</body>
+</html>
