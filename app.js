@@ -1,6 +1,5 @@
 angular.module('resumeApp', []).
     config(function ($httpProvider) {
-
         // Cross Origin Resource Sharing config
         $httpProvider.defaults.useXDomain = true;
         delete $httpProvider.defaults.headers.common['X-Requested-With'];
@@ -22,7 +21,7 @@ angular.module('resumeApp').
         var now = new Date();
 
         $scope.getYears = function (initial) {
-            return now.getFullYear() - initial + 1;
+            return now.getFullYear() - initial;
         };
 
 
