@@ -34,8 +34,16 @@
             "title": "Senior Software Engineer",
             "description": "Participated on the architectural design of a new company project, implementing a 3-tier application using Django Rest Framework and an AngularJS client. Main achievement is 100% coverage on unit test for both Python and Javascript projects.",
             "company": "LawLogix",
+            "location": "Temuco, Chile",
+            "timeRange": "August 2014 – Present",
+            "technologies": "Django Rest Framework, Celery, PostgreSQL, AngularJS, Grunt, Karma"
+        },
+        {
+            "title": "Senior Software Engineer",
+            "description": "Participated on the architectural design of a new company project, implementing a 3-tier application using Django Rest Framework and an AngularJS client. Main achievement is 100% coverage on unit test for both Python and Javascript projects.",
+            "company": "LawLogix",
             "location": "Phoenix, AZ",
-            "timeRange": "February 2014 – Present",
+            "timeRange": "February 2014 – July 2014",
             "technologies": "Django Rest Framework, Celery, PostgreSQL, AngularJS, Grunt, Karma"
         },
         {
