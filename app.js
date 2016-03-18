@@ -21,7 +21,7 @@ angular.module('resumeApp').
     var now = new Date();
 
     $scope.getYears = function(initial) {
-      return now.getFullYear() - initial - 1;
+      return now.getFullYear() - initial;
     };
 
   });
