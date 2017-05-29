@@ -1,0 +1,114 @@
+{
+  "extract": [
+    "<p>Full-stack Software Engineer with more than 9 years of professional experience. Open for relocation and remote positions.</p>",
+    "<p>H-1B1 visa eligible for chilean citizens. </p>"
+  ],
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Off Piste Agency",
+      "location": "London, United Kingdom",
+      "from": "Feb. 2017",
+      "to": "Today",
+      "description": [
+        "<p>At Off Piste Agency we help startups to launch their projects by providing world class development processes.</p>",
+        "<ul class='bullet'>",
+        "<li>Implemented Bombinate website using agile methodologies with React, Koajs and PostgreSQL.</li>",
+        "<li>Implemented TechREP MVP using React and Mapboxgl.</li>",
+        "</ul>"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "CareLinx",
+      "location": "San Bruno CA",
+      "from": "Jul. 2015",
+      "to": "Jan. 2017",
+      "description": [
+        "<p>Working as a remote software engineer from Chile with the team in San Bruno, CA. Implementing the new design of the website and migrating the existing Django application to React/Django Rest.</p>",
+        "<p>Main contributions include:</p>",
+        "<ul class='bullet'>",
+        "<li>Website revamp to be 100% mobile responsive, compatible webview in iOS and Android app, cross-client compatible emails</li>",
+        "<li>Real time messaging system for CareLinx Users, using Firebase as the backend.</li>",
+        "<li>Task list module with email alerts and push notifications on the iOS and Android apps.</li>",
+        "<li>Advanced scheduling for the tasks including recurring tasks on different time spans.</li>",
+        "<li>Main engineer for timesheet and invoicing systems, including smart overtime calculations, PDF generation and email alerts.</li>",
+        "<li>Integration with HomeWork Solutions.</li>",
+        "<li>Integration with Backgrounds Online.</li>",
+        "</ul>",
+        "<p>Technologies: Django, Django Rest Framework, React, React Native, Firebase, PostgreSQL.</p>"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "LawLogix Group, Inc.",
+      "location": "Phoenix, AZ",
+      "from": "Apr. 2012",
+      "to": "Jul, 2015",
+      "description": [
+        "<p>LawLogix is the leader Immigration Case Manager System.</p>",
+        "<p>Participated in one year J-1 exchange visitor training program in Phoenix, AZ. Successfully ported legacy code from existing LawLogix's product to Python using Django web framework.</p>",
+        "<p>After the J-1 period I was promoted to Senior Software Engineer, implementing test-driven development and training new developers under H1B1 visa for chilean citizens.</p>",
+        "<p>Working on the architectural design of a new company project, implemented a 3-tier application using Django Rest Framework and an AngularJS client, achieving 100% coverage on unit test for Python and Javascript projects. </p>",
+        "<p>Technologies: Django Rest Framework, Celery, PostgreSQL, AngularJS, Grunt, Karma.</p>"
+      ]
+    },
+    {
+      "role": "Lead Development Engineer",
+      "company": "Foxido",
+      "location": "Santiago, Chile",
+      "from": "Sep. 2011",
+      "to": "Feb. 2012",
+      "description": [
+        "<p>Foxido was part of the Startup Chile program. It is a marketplace for local services.<br/>",
+        "As Lead Developer I designed and implemented the public facing system to allow users search for service providers and providers to list their services.</p>",
+        "<p>Technologies: Django, MySQL, jQuery.</p>"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Derco",
+      "location": "Santiago, Chile",
+      "from": "Mar. 2011",
+      "to": "Jul. 2011",
+      "description": [
+        "Derco is a big car dealership in Chile. Working as a software engineer implementing an e-commerce system for the existing product catalogs, connecting the client software to the main SAP services.",
+        "<p>Technologies: ASP.NET, MS SQL Server, jQuery.</p>"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "AreaWeb",
+      "location": "Santiago, Chile",
+      "from": "Nov. 2010",
+      "to": "Feb. 2011",
+      "description": [
+        "<p>Designed and implemented a client software for a private financial company. The goal of this project was a user friendly interface for existing web service endpoints.</p>",
+        "<p>Technologies used: Django, ASP.NET, jQuery.</p>"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Quintec",
+      "location": "Santiago, Chile",
+      "from": "May. 2010",
+      "to": "Nov. 2010",
+      "description": [
+        "<p>Implemented a government birth control system project for public hospitals, using MS SQL Server and ASP.NET.<br/>",
+        "Contributed with the database design and user experience design.</p>"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "TIDE S.A.",
+      "location": "Temuco, Chile",
+      "from": "Jun. 2007",
+      "to": "May. 2010",
+      "description": [
+        "<p>Worked as Junior Software Engineer for a year then full time Engineer. Participated in numerous educational and commercial software projects.</p>",
+        "<p>Successfully delivered a Statistical Reporting System for College KPI data using PostgreSQL, Django and Fusioncharts.</p>",
+        "<p>Created an online catalog for educational resources with Magento and MySQL.</p>"
+      ]
+    }
+  ]
+}
