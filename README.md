@@ -1,7 +1,7 @@
-### Hi there!
+### Hey there!
 
-Mi name is Hugo, I'm a senior frontend engineer with more than a decade of experience in web development.
+I'm a senior fullstack developer with more than a decade of experience in web development.
 
-I specialize in the React/Redux ecosystem with a focus on user experience and accessibility.
+I work mainly with React/Redux, and currently building a project in Sveltekit.
 
 [Download Resume](http://hugotox.github.io/hugotox/Hugo_Pineda_-_Senior_Frontend_Engineer.pdf)
