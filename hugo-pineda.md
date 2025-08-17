@@ -8,7 +8,7 @@
 
 ## Professional Summary
 
-Senior Fullstack Engineer with 15+ years building web & mobile applications, and distributed systems. Passionate about technology and problem solving. Proven track record of leading technical initiatives, mentoring, conducting technical interviews, and delivering high-performance applications serving millions of users. Strong advocate for clean code, robust testing practices, and inclusive engineering culture.
+Senior Fullstack Engineer with 15+ years building web & mobile applications, and distributed systems. Passionate about responsible technology development and AI safety. Currently building AI-integrated healthcare solutions using Anthropic's Claude API. Proven track record of leading technical initiatives, mentoring, conducting technical interviews, and delivering high-performance applications serving millions of users. Strong advocate for ethical AI development, safety-first engineering practices, and building technology that benefits humanity.
 
 ---
 
@@ -23,6 +23,8 @@ Senior Fullstack Engineer with 15+ years building web & mobile applications, and
 **Databases:** PostgreSQL, Redis, MongoDB, MySQL.
 
 **Cloud & Infrastructure:** AWS (EC2, S3, Lambda, RDS), Docker, Supabase.
+
+**AI/ML:** OpenAI API, Anthropic Claude API, Prompt Engineering.
 
 **Tools:** Git, GitHub Actions, CircleCI, Storybook, Sentry, Figma.
 
