@@ -8,7 +8,7 @@
 
 ## Professional Summary
 
-Senior Fullstack Engineer with 15+ years building web & mobile applications, and distributed systems. Passionate about responsible technology development and AI safety. Currently building AI-integrated healthcare solutions using Anthropic's Claude API. Proven track record of leading technical initiatives, mentoring, conducting technical interviews, and delivering high-performance applications serving millions of users. Strong advocate for ethical AI development, safety-first engineering practices, and building technology that benefits humanity.
+Senior Fullstack Engineer with 15+ years building web & mobile applications. Passionate about responsible technology development and AI safety. Currently building AI-integrated fullstack healthcare solutions at Solace Health. Proven track record of leading technical initiatives, mentoring, conducting technical interviews, and delivering high-performance applications serving millions of users. Strong advocate for accessible systems, ethical AI development, safety-first engineering practices, and building technology that benefits humanity.
 
 ---
 
@@ -32,7 +32,7 @@ Senior Fullstack Engineer with 15+ years building web & mobile applications, and
 
 ## Professional Experience
 
-### Senior Fullstack Engineer | Solace Inc. | Oct 2024 - Present
+### Senior Fullstack Engineer | Solace Health. | Oct 2024 - Present
 
 **Remote, San Francisco Bay Area**
 
