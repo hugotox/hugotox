@@ -1,6 +1,6 @@
 # Hugo Pineda
 
-**Senior Fullstack Engineer**
+**Staff Full-Stack Engineer**
 
 ✉️ hpineda83@gmail.com | 📱 [(650) 745-5280](tel:+16507455280) | 💼 [linkedin.com/in/hugoandres](https://www.linkedin.com/in/hugoandres/) | 🐙 [github.com/hugotox](https://github.com/hugotox) | 📍 San Francisco, CA
 
@@ -8,7 +8,7 @@
 
 ## Professional Summary
 
-Senior Fullstack Engineer with 15+ years building web & mobile applications. Passionate about responsible technology development and AI safety. Currently building AI-integrated fullstack healthcare solutions at Solace Health. Proven track record of leading technical initiatives, mentoring, conducting technical interviews, and delivering high-performance applications serving millions of users. Strong advocate for accessible systems, ethical AI development, safety-first engineering practices, and building technology that benefits humanity.
+Senior Full-Stack Engineer with 18+ years of experience building web and mobile products, including healthcare platforms used by patients, caregivers, and healthcare professionals. Currently building full-stack, AI-enabled healthcare products at Solace Health, with experience owning features end-to-end across React, Node.js, Python, and PostgreSQL. Proven track record of leading technical initiatives, modernizing production systems, improving application performance, and delivering products used by millions of users.
 
 ---
 
@@ -16,9 +16,9 @@ Senior Fullstack Engineer with 15+ years building web & mobile applications. Pas
 
 **Languages:** JavaScript/TypeScript, Python, SQL.
 
-**Frontend:** React, Next.js, Svelte, HTML5, CSS3, Tailwind CSS, Shadcn, Framer Motion, React Native, Expo.
+**Frontend:** React, Next.js, Storybook, Svelte, HTML5, CSS3, Tailwind CSS, Shadcn, Framer Motion, React Native, Expo.
 
-**Backend:** Node.js, Django, Express.js, GraphQL, REST APIs.
+**Backend:** Node.js, NestJS, Express.js, TypeORM, Drizzle ORM, Django, GraphQL, REST APIs.
 
 **Databases:** PostgreSQL, Redis, MongoDB, MySQL.
 
@@ -26,24 +26,32 @@ Senior Fullstack Engineer with 15+ years building web & mobile applications. Pas
 
 **AI/ML:** OpenAI API, Anthropic Claude API, Prompt Engineering.
 
-**Tools:** Git, GitHub Actions, CircleCI, Storybook, Sentry, Figma.
+**Tools:** Git, GitHub Actions, CircleCI, Sentry, Datadog, Figma.
 
 ---
 
 ## Professional Experience
 
-### Senior Fullstack Engineer | Solace Health. | Oct 2024 - Present
+### Staff Full-Stack Engineer | Solace Health | Oct 2025 - Present
+
+**Remote, San Francisco Bay Area**
+
+- Built the Patient Experience platform from the ground up, owning full-stack development across React, TanStack Query/Router, NestJS, TypeORM, and PostgreSQL.
+- Implemented core patient experience capabilities including authentication and authorization with Auth0, feature flags with Statsig, error monitoring with Sentry, unit testing with Testing Library, and end-to-end testing with Playwright.
+- Built core patient-facing features including the patient dashboard, account settings, and advocate progress tracking, serving thousands of patients and giving them visibility into their care journey.
+
+### Senior Full-Stack Engineer | Solace Health | Oct 2024 - Oct 2025
 
 **Remote, San Francisco Bay Area**
 
 - Implemented Twilio integration to allow advocate and patient communications via phone and text message.
-- Developed advocate dashboard with AI integration (Anthropic) to suggest next steps.
-- Implemented care plan feature with AI integration (Anthropic) to suggest care plan goal.
-- Use AI tools to validate the quality of advocate notes.
+- Built AI-powered features using Anthropic Claude to help care advocates plan their work, define patient goals, and identify next steps.
+- Built AI-assisted quality checks for advocate documentation, helping ensure clinical notes meet requirements for insurance coverage.
 - Reduced bundle size of all Solace's frontend applications by removing barrel files, and implementing code splitting techniques.
-- Led UI library initiative providing shared components used by all frontend applications.
-- Worked closely with design team on the UI library project.
-- Migrated several frontend apps to Vite to optimize developer workflow.
+- Defined, planned, scoped and led implementation of the UI library initiative providing shared components used by all frontend applications.
+- Worked closely with design team on the design system for the UI library project.
+- Migrated several frontend apps to Vite, optimizing developer workflow.
+- Conducted technical interviews for engineering candidates (twice a week during hiring periods).
 
 ### Staff Frontend Engineer | Zumper | Oct 2023 - Oct 2024
 
@@ -77,8 +85,8 @@ Senior Fullstack Engineer with 15+ years building web & mobile applications. Pas
 **On-site, San Bruno, CA**
 
 - Led complete website modernization to achieve 100% mobile responsiveness and iOS/Android webview compatibility.
-- Built comprehensive caregiver-client platform including matching algorithms, messaging system, and workflow management.
-- Developed real-time messaging application connecting families with caregivers with push notifications and email alerts.
+- Built end-to-end healthcare workflows connecting caregivers and clients, including matching, messaging, scheduling, and workflow management.
+- Built real-time messaging between families and caregivers with push notifications and email alerts.
 - Implemented invoice system with automated overtime calculations, PDF generation, and email notifications.
 - Created background check integration with Backgrounds Online, streamlining caregiver verification process.
 - Optimized application performance reducing JavaScript bundle size by 50%, significantly improving load times.
@@ -96,8 +104,7 @@ Senior Fullstack Engineer with 15+ years building web & mobile applications. Pas
 
 **On-site, Phoenix, AZ**
 
-- Participated in J-1 exchange program, gaining valuable international development experience.
-- Migrated legacy system to modern Python/Django architecture, improving maintainability and performance.
+- Migrated a legacy application to a modern Python/Django architecture, improving maintainability and performance.
 - Developed immigration case management dashboard streamlining legal workflow processes.
 - Implemented test-driven development practices for both frontend and backend applications.
 - Provided technical mentoring to new team members on development best practices.
@@ -117,7 +124,7 @@ Senior Fullstack Engineer with 15+ years building web & mobile applications. Pas
 
 ### [StickMonkey](https://www.flystickmonkey.com/)
 
-As a fun side project with a pilot friend, I developed the full stack application for StickMonkey, a time-building platform for pilot students.
+Built StickMonkey, a marketplace connecting student pilots with time-building opportunities.
 
 Technologies used include SvelteKit, Shadcn and Supabase.
 
@@ -127,7 +134,7 @@ As a personal project, developed a timer for workouts using React Native and Exp
 
 ### Phaser Tetris
 
-Wanted to learn to program games with Phaser.io. Re-created the classis tetris game using custom made sprites with figma.
+Recreated the classic Tetris game using Phaser and custom pixel-art sprites.
 
 ---
 
@@ -145,15 +152,7 @@ Wanted to learn to program games with Phaser.io. Re-created the classis tetris g
 
 ---
 
-## Leadership & Impact
-
-- Technical Leadership: Led cross-functional teams on major modernization initiatives.
-- Mentoring: Consistently mentored junior and mid-level engineers throughout career.
-- Interviewing: Conducted technical interviews for frontend candidates across all levels.
-- Best Practices: Established coding standards, review processes, and development workflows.
-- Knowledge Sharing: Contributed to technical decision-making and architecture planning.
-
 ## Additional Information
 
-- **Languages:** Spanish (Native), English (Proficient)
-- **Interests:** Using technology to help solving complex problems, contributing to open-source projects, retro gaming, rock climbing and fitness in general.
+- **Languages:** Spanish, English
+- **Interests:** Technology, open-source projects, retro gaming, rock climbing, and fitness.
