@@ -14,19 +14,13 @@ Senior Full-Stack Engineer with 18+ years of experience building web and mobile 
 
 ## Technical Skills
 
-**Languages:** JavaScript/TypeScript, Python, SQL.
-
-**Frontend:** React, Next.js, Storybook, Svelte, HTML5, CSS3, Tailwind CSS, Shadcn, Framer Motion, React Native, Expo.
-
-**Backend:** Node.js, NestJS, Express.js, TypeORM, Drizzle ORM, Django, GraphQL, REST APIs.
-
-**Databases:** PostgreSQL, Redis, MongoDB, MySQL.
-
-**Cloud & Infrastructure:** AWS (EC2, S3, Lambda, RDS), Docker, Supabase.
-
-**AI/ML:** OpenAI API, Anthropic Claude API, Prompt Engineering.
-
-**Tools:** Git, GitHub Actions, CircleCI, Sentry, Datadog, Figma.
+- **Languages:** JavaScript/TypeScript, Python, SQL.
+- **Frontend:** React, Next.js, Storybook, Svelte, HTML5, CSS3, Tailwind CSS, Shadcn, Framer Motion, React Native, Expo.
+- **Backend:** Node.js, NestJS, Express.js, TypeORM, Drizzle ORM, Django, GraphQL, REST APIs.
+- **Databases:** PostgreSQL, Redis, MongoDB, MySQL.
+- **Cloud & Infrastructure:** AWS (EC2, S3, Lambda, RDS), Docker, Supabase.
+- **AI/ML:** OpenAI API, Anthropic Claude API, Prompt Engineering.
+- **Tools:** Git, GitHub Actions, CircleCI, Sentry, Datadog, Figma.
 
 ---
 
