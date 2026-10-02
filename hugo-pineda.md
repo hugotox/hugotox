@@ -1,6 +1,6 @@
 # Hugo Pineda
 
-**Staff Full-Stack Engineer**
+**Staff Software Engineer**
 
 ✉️ hpineda83@gmail.com | 📱 [(650) 745-5280](tel:+16507455280) | 💼 [linkedin.com/in/hugoandres](https://www.linkedin.com/in/hugoandres/) | 🐙 [github.com/hugotox](https://github.com/hugotox) | 📍 San Francisco, CA
 
@@ -8,14 +8,16 @@
 
 ## Professional Summary
 
-Senior Full-Stack Engineer with 18+ years of experience building web and mobile products, including healthcare platforms used by patients, caregivers, and healthcare professionals. Currently building full-stack, AI-enabled healthcare products at Solace Health, with experience owning features end-to-end across React, Node.js, Python, and PostgreSQL. Proven track record of leading technical initiatives, modernizing production systems, improving application performance, and delivering products used by millions of users.
+Staff Software Engineer with 18+ years of experience building web applications and software platforms, specializing in React, TypeScript, frontend architecture, performance, and developer experience. Experienced in leading cross-application technical initiatives, building design systems, modernizing production systems, and developing products serving millions of users.
+
+Currently building a patient experience platform at Solace Health using React, TanStack Query/Router, Node.js, and PostgreSQL.
 
 ---
 
 ## Technical Skills
 
 - **Languages:** JavaScript/TypeScript, Python, SQL.
-- **Frontend:** React, Next.js, Storybook, Svelte, HTML5, CSS3, Tailwind CSS, Shadcn, Framer Motion, React Native, Expo.
+- **Frontend:** React, TanStack Query, Next.js, Storybook, Svelte, HTML5, CSS3, Tailwind CSS, Shadcn, Framer Motion, React Native, Expo.
 - **Backend:** Node.js, NestJS, Express.js, TypeORM, Drizzle ORM, Django, GraphQL, REST APIs.
 - **Databases:** PostgreSQL, Redis, MongoDB, MySQL.
 - **Cloud & Infrastructure:** AWS (EC2, S3, Lambda, RDS), Docker, Supabase.
