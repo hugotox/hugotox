@@ -88,14 +88,6 @@ Currently building a patient experience platform at Solace Health using React, T
 - Optimized application performance reducing JavaScript bundle size by 50%, significantly improving load times.
 - Mentored junior engineers on technical best practices and code quality standards.
 
-### Software Engineer | Off Piste Agency | Feb 2017 - Aug 2017
-
-**Remote, London, UK**
-
-- Developed full-stack e-commerce solutions for multiple clients including Bombinate and Mad About Specs.
-- Built specialized mapping application for real estate sector highlighting flood and power outage risks in rural areas.
-- Tech stack: React, Redux, Node.js, Mapbox, and PostgreSQL.
-
 ### Software Engineer | LawLogix Group, Inc. | Apr 2012 - Jul 2015
 
 **On-site, Phoenix, AZ**
@@ -118,19 +110,23 @@ Currently building a patient experience platform at Solace Health using React, T
 
 ## Side Projects
 
-### [StickMonkey](https://www.flystickmonkey.com/)
+### StickMonkey
 
 Built StickMonkey, a marketplace connecting student pilots with time-building opportunities.
 
-Technologies used include SvelteKit, Shadcn and Supabase.
+Technologies used include SvelteKit, Tailwind, Shadcn and Supabase.
 
 ### Workout Timer
 
 As a personal project, developed a timer for workouts using React Native and Expo.
 
+[https://github.com/hugotox/TabataTimer](https://github.com/hugotox/TabataTimer)
+
 ### Phaser Tetris
 
 Recreated the classic Tetris game using Phaser and custom pixel-art sprites.
+
+[https://github.com/hugotox/phaser-tetris](https://github.com/hugotox/phaser-tetris)
 
 ---
 
