@@ -1,6 +1,6 @@
 # Hugo Pineda
 
-Senior Fullstack Engineer with 15+ years building web & mobile applications.
+Senior Fullstack Engineer with 18+ years building web & mobile applications.
 
 Currently working with React, NestJS and PostgreSQL on the healthcare industry.
 
