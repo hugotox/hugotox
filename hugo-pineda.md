@@ -25,17 +25,17 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 
 ## Professional Experience
 
-### Staff Full-Stack Engineer | Solace Health | Oct 2025 - Present
+### Solace Health | Oct 2024 - Present
 
 **Remote, San Francisco Bay Area**
+
+#### Staff Full-Stack Engineer | Oct 2025 - Present
 
 - Built the Patient Experience platform from the ground up, owning full-stack implementation across React, TanStack Query/Router, NestJS, and PostgreSQL.
 - Delivered patient-facing dashboards, account management, and advocate progress tracking for a platform serving approximately 60,000 monthly active patients.
 - Established core platform capabilities, including authentication and authorization, feature flags, error monitoring, and automated unit and end-to-end testing.
 
-### Senior Full-Stack Engineer | Solace Health | Oct 2024 - Oct 2025
-
-**Remote, San Francisco Bay Area**
+#### Senior Full-Stack Engineer | Oct 2024 - Oct 2025
 
 - Built AI-powered care-planning features using Anthropic Claude, helping advocates define patient goals, plan care, and identify next steps within their existing workflows.
 - Implemented AI-assisted documentation quality checks to help advocates meet insurance documentation requirements, supporting improved claim acceptance.
@@ -44,9 +44,11 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 - Integrated Twilio to enable patient–advocate communication through phone and text messaging.
 - Migrated multiple frontend applications to Vite to modernize the development workflow.
 
-### Staff Frontend Engineer | Zumper | Oct 2023 - Oct 2024
+### Zumper | Jul 2019 - Oct 2024
 
-**Hybrid, San Francisco Bay Area**
+**San Francisco Bay Area**
+
+#### Staff Frontend Engineer | Oct 2023 - Oct 2024 | Hybrid
 
 - Led frontend modernization across Zumper and PadMapper, achieving 90% TypeScript coverage through a comprehensive JavaScript-to-TypeScript migration.
 - Architected a shared design system and UI component library across frontend applications, standardizing component structure and visual consistency while making accessibility practices easier to implement.
@@ -54,25 +56,23 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 - Improved accessibility compliance to over 95% on the Zumper platform.
 - Optimized Core Web Vitals, achieving perfect Cumulative Layout Shift scores and green Largest Contentful Paint metrics.
 
-### Senior Frontend Engineer | Zumper | Oct 2021 - Oct 2023
-
-**Hybrid, San Francisco Bay Area**
+#### Senior Frontend Engineer | Oct 2021 - Oct 2023 | Hybrid
 
 - Developed custom polygon-based map search, allowing users to define their own geographic search areas.
 - Built a client-facing analytics dashboard that helped property managers understand listing performance and market trends.
 - Improved frontend performance and search-engine optimization across PadMapper, contributing to increased traffic.
 - Modernized the styling system to improve maintainability and developer experience.
 
-### Frontend Engineer | Zumper | Jul 2019 - Oct 2021
-
-**On-site, San Francisco Bay Area**
+#### Frontend Engineer | Jul 2019 - Oct 2021 | On-site
 
 - Rebuilt PadMapper.com using React, Redux, and server-side rendering, modernizing a legacy real estate search platform serving millions of users.
 - Developed property-management dashboards for listing performance and inventory management.
 
-### Software Engineer | CareLinx | Jul 2015 - May 2019
+### CareLinx | Jul 2015 - May 2019
 
 **On-site, San Bruno, CA**
+
+#### Software Engineer
 
 - Led complete website modernization to achieve 100% mobile responsiveness and iOS/Android webview compatibility.
 - Built end-to-end healthcare workflows connecting caregivers and clients, including matching, messaging, scheduling, and workflow management.
@@ -82,9 +82,11 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 - Reduced JavaScript bundle size by 50%, addressing frontend performance issues and improving application loading.
 - Mentored engineers on technical best practices and code quality standards.
 
-### Software Engineer | LawLogix Group, Inc. | Apr 2012 - Jul 2015
+### LawLogix Group, Inc. | Apr 2012 - Jul 2015
 
 **On-site, Phoenix, AZ**
+
+#### Software Engineer
 
 - Migrated a legacy application to a modern Python/Django architecture, improving maintainability and performance.
 - Developed immigration case management dashboard streamlining legal workflow processes.
