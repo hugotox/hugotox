@@ -2,7 +2,7 @@
 
 **Staff Software Engineer | Full-Stack Product Engineering**
 
-✉️ hpineda83@gmail.com | 📱 [(650) 745-5280](tel:+16507455280) | 💼 [linkedin.com/in/hugoandres](https://www.linkedin.com/in/hugoandres/) | 🐙 [github.com/hugotox](https://github.com/hugotox) | 📍 San Francisco, CA
+✉️ hpineda83@gmail.com | 📱 [(650) 745-5280](tel:+16507455280) | 💼 [linkedin.com/in/hugoandres](https://www.linkedin.com/in/hugoandres/) | 🐙 [github.com/hugotox](https://github.com/hugotox) | 🔗 [Hugo Pineda](https://www.hugopineda.me/) | 📍 San Francisco, CA
 
 ---
 
@@ -25,7 +25,7 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 
 ## Professional Experience
 
-### Solace Health | Oct 2024 - Present · *2 yrs*
+### Solace Health | Oct 2024 - Present · _2 yrs_
 
 **Remote, San Francisco Bay Area**
 
@@ -44,7 +44,7 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 - Integrated Twilio to enable patient–advocate communication through phone and text messaging.
 - Migrated multiple frontend applications to Vite to modernize the development workflow.
 
-### Zumper | Jul 2019 - Oct 2024 · *5 yrs 3 mos*
+### Zumper | Jul 2019 - Oct 2024 · _5 yrs 3 mos_
 
 **San Francisco Bay Area**
 
@@ -68,7 +68,7 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 - Rebuilt PadMapper.com using React, Redux, and server-side rendering, modernizing a legacy real estate search platform serving millions of users.
 - Developed property-management dashboards for listing performance and inventory management.
 
-### CareLinx | Jul 2015 - May 2019 · *3 yrs 10 mos*
+### CareLinx | Jul 2015 - May 2019 · _3 yrs 10 mos_
 
 **On-site, San Bruno, CA**
 
@@ -82,7 +82,7 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 - Reduced JavaScript bundle size by 50%, addressing frontend performance issues and improving application loading.
 - Mentored engineers on technical best practices and code quality standards.
 
-### LawLogix Group, Inc. | Apr 2012 - Jul 2015 · *3 yrs 3 mos*
+### LawLogix Group, Inc. | Apr 2012 - Jul 2015 · _3 yrs 3 mos_
 
 **On-site, Phoenix, AZ**
 
