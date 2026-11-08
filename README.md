@@ -4,7 +4,7 @@ Senior Fullstack Engineer with 18+ years building web & mobile applications.
 
 Currently working with React, NestJS and PostgreSQL on the healthcare industry.
 
-[Hugo Pineda](https://www.hugopineda.me/)
+[Personal Page](https://www.hugopineda.me/)
 
 [Resume](https://github.com/hugotox/hugotox/blob/master/hugo-pineda.md)
 
