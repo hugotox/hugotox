@@ -2,28 +2,29 @@
 
 **Staff Software Engineer | Full-Stack Product Engineering**
 
-✉️ hpineda83@gmail.com | 📱 [(650) 745-5280](tel:+16507455280) | 💼 [linkedin.com/in/hugoandres](https://www.linkedin.com/in/hugoandres/) | 🐙 [github.com/hugotox](https://github.com/hugotox) | 🔗 [Hugo Pineda](https://www.hugopineda.me/) | 📍 San Francisco, CA
+✉️ hpineda83@gmail.com | 📱 [(650) 745-5280](tel:+16507455280) | 💼 [linkedin.com/in/hugoandres](https://www.linkedin.com/in/hugoandres/) | 🐙 [github.com/hugotox](https://github.com/hugotox) | 🔗 [hugopineda.me](https://www.hugopineda.me/) | 📍 San Francisco, CA
 
 ---
 
-## Professional Summary
+## Professional summary
 
-Senior Software Engineer with 18+ years of experience building customer-facing products, healthcare platforms, and marketplaces. Combines end-to-end product ownership with strong frontend architecture, backend development, data modeling, and AI integration skills. Experienced in taking products from concept to production, modernizing platforms serving large user bases, and building shared systems that improve engineering efficiency. Track record includes a patient platform serving approximately 60,000 monthly active patients, AI-assisted healthcare workflows, and a marketplace that attracted 10,000 registered users.
+Staff software engineer with 18+ years of experience building customer-facing products, healthcare platforms, and marketplaces. Works across the stack, from frontend architecture and design systems to backend services, data modeling, and AI integrations. Recent work includes a patient platform with about 60,000 monthly active patients, Claude-based care-planning tools for healthcare advocates, and a shared component library used by four applications. The side project StickMonkey reached 10,000 registered users. Active interviewer for engineering candidates.
 
 ---
 
-## Technical Skills
+## Technical skills
 
 - **Languages:** TypeScript, JavaScript, Python, SQL
-- **Frontend:** React, Next.js, TanStack Query, TanStack Router, Tailwind CSS, Storybook, Vite, React Native
-- **Backend:** Node.js, NestJS, Express.js, Django, REST APIs, GraphQL
+- **Frontend:** React.js, Next.js, React Native, SvelteKit, TanStack Query, TanStack Router, Tailwind CSS, Chakra UI, Mapbox, Storybook, Vite
+- **Backend:** Node.js, NestJS, Express.js, Django, Django REST Framework, REST APIs, GraphQL, Socket.IO
 - **Data:** PostgreSQL, Redis, MS SQL Server, MySQL
-- **AI:** OpenAI API, Anthropic Claude API, AI-powered workflow integration
-- **Infrastructure & Quality:** AWS, Docker, Supabase, Playwright, Testing Library, Sentry, Datadog, GitHub Actions
+- **AI:** OpenAI API, Anthropic Claude API
+- **Infrastructure and testing:** AWS, Vercel, Docker, Supabase, Playwright, Cypress, Testing Library, Sentry, Datadog, GitHub Actions
+- **Integrations:** Twilio, Stripe, SendGrid, Auth0, Statsig
 
 ---
 
-## Professional Experience
+## Professional experience
 
 ### Solace Health | Oct 2024 - Present · _2 yrs_
 
@@ -31,18 +32,20 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 
 #### Staff Full-Stack Engineer | Oct 2025 - Present
 
-- Built the Patient Experience platform from the ground up, owning full-stack implementation across React, TanStack Query/Router, NestJS, and PostgreSQL.
-- Delivered patient-facing dashboards, account management, and advocate progress tracking for a platform serving approximately 60,000 monthly active patients.
-- Established core platform capabilities, including authentication and authorization, feature flags, error monitoring, and automated unit and end-to-end testing.
+- Tech lead for a team of three engineers that built the Patient Experience platform from scratch and shipped it to real patients in four months. Set the architecture and owned the full-stack implementation in React, TanStack Query/Router, NestJS, and PostgreSQL.
+- Chose TanStack Router and Query on Vite over Next.js because the portal didn't need server-side rendering, which gave the team caching and retries without writing them.
+- Shipped self-service scheduling, so patients book, reschedule, and cancel advocate visits without contacting the customer experience team.
+- Shipped patient dashboards, account management, and advocate progress tracking. The number of patients logging in each month rose about 50% over the old patient pages in the health app, and the platform now serves about 60,000 monthly active patients.
+- Set up the platform's authentication and authorization (Auth0), feature flags (Statsig), error monitoring (Sentry), and automated unit and end-to-end tests.
 
 #### Senior Full-Stack Engineer | Oct 2024 - Oct 2025
 
-- Built AI-powered care-planning features using Anthropic Claude, helping advocates define patient goals, plan care, and identify next steps within their existing workflows.
-- Implemented AI-assisted documentation quality checks to help advocates meet insurance documentation requirements, supporting improved claim acceptance.
-- Initiated and led the UI library and design system from concept to adoption: developed a proof of concept, secured product and design buy-in, and drove implementation of shared components across four applications—Solace Health (advocates and physicians), Solace Admin, Solace Funnel, and Solace Patient.
-- Modernized frontend delivery by replacing a single approximately 10 MB JavaScript chunk with a code-split application whose largest chunk is approximately 200 KB, substantially reducing the size of the largest individual chunk.
-- Integrated Twilio to enable patient–advocate communication through phone and text messaging.
-- Migrated multiple frontend applications to Vite to modernize the development workflow.
+- Built AI-guided care planning with the Anthropic API, built into the advocate workflow and used by all of Solace's roughly 1,500 advocates to set patient goals, plan care, and decide next steps.
+- Replaced advocates' hand-written timesheets with AI-generated claim documentation. It collects a patient's completed tasks, visit transcripts, advocate notes, and completed care plan goals, then uses the Anthropic API to write them up in one standard format. All advocates use it for every claim, so claims no longer depend on each advocate's writing style.
+- Started and led the design system, a 56-component library built on shadcn, published to npm, with Figma as the source of truth. Built the proof of concept and the first 10 components, got product and design to sign on, and rolled it out to four apps: Solace Health (advocates and physicians), Solace Admin, Solace Funnel, and Solace Patient. Every team now contributes components.
+- Code-split the advocate app, which shipped as a single 10 MB JavaScript chunk. The largest chunk is now about 200 KB.
+- Replaced OpenPhone with a Twilio integration for patient and advocate calls and texts, about 6,000 calls a month. Unlike OpenPhone, it lets the platform capture call transcripts, which feed the AI claim documentation.
+- Migrated two frontend apps (Solace Health and Solace Admin) from Create React App and Next.js to Vite. Reloading after a code change dropped from 4 to 5 seconds to under a second, and production builds went from about 2 minutes to about 10 seconds.
 
 ### Zumper | Jul 2019 - Oct 2024 · _5 yrs 3 mos_
 
@@ -50,23 +53,20 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 
 #### Staff Frontend Engineer | Oct 2023 - Oct 2024 | Hybrid
 
-- Led frontend modernization across Zumper and PadMapper, achieving 90% TypeScript coverage through a comprehensive JavaScript-to-TypeScript migration.
-- Architected a shared design system and UI component library across frontend applications, standardizing component structure and visual consistency while making accessibility practices easier to implement.
-- Implemented end-to-end tests covering 100% of critical user journeys across both platforms.
-- Improved accessibility compliance to over 95% on the Zumper platform.
-- Optimized Core Web Vitals, achieving perfect Cumulative Layout Shift scores and green Largest Contentful Paint metrics.
+- Led the JavaScript-to-TypeScript migration across Zumper and PadMapper, taking TypeScript coverage from about 50% to 90% in six months. Broke the work into tickets, assigned and reviewed them across a team of five frontend engineers, and converted a large share of the code personally.
+- Started the shared design system with the design team, built on Chakra UI and used by Zumper, PadMapper, and an internal app for property managers. Chakra components are accessible by default, and the custom components were built to the same standard, which raised accessibility compliance on Zumper to over 95%.
+- Wrote Cypress end-to-end tests for the main user journeys on Zumper and PadMapper: searching for properties, opening a listing, browsing its photos, and contacting the property manager. The tests ran in CI on every merge to main and caught regressions, such as a photo carousel whose next and previous buttons stopped working.
+- Fixed Core Web Vitals on Zumper and PadMapper. Took Zumper's Cumulative Layout Shift (CLS) from 0.25 to a perfect score by replacing loading spinners with skeletons sized to match the content that replaced them. Moved Largest Contentful Paint (LCP) from red to green on both sites by serving images sized for each device with the HTML picture element and lazy-loading sections below the fold.
 
 #### Senior Frontend Engineer | Oct 2021 - Oct 2023 | Hybrid
 
-- Developed custom polygon-based map search, allowing users to define their own geographic search areas.
-- Built a client-facing analytics dashboard that helped property managers understand listing performance and market trends.
-- Improved frontend performance and search-engine optimization across PadMapper, contributing to increased traffic.
-- Modernized the styling system to improve maintainability and developer experience.
+- Built polygon map search as a Mapbox plugin for Zumper and PadMapper, so users can draw their own search area on the map.
+- Built the property manager dashboard, a paid feature for selected Zumper customers. It shows how their listings perform and where the market is moving, and lets them manage their inventory.
+- Replaced a mix of four styling approaches (CSS Modules, LESS, Sass, and Emotion) with Tailwind CSS. Pulled the shared styles into one Tailwind theme for Zumper and one for PadMapper, so new pages use utility classes instead of writing their own CSS.
 
 #### Frontend Engineer | Jul 2019 - Oct 2021 | On-site
 
-- Rebuilt PadMapper.com using React, Redux, and server-side rendering, modernizing a legacy real estate search platform serving millions of users.
-- Developed property-management dashboards for listing performance and inventory management.
+- Rebuilt PadMapper.com, a real estate search site with millions of users, moving it from a legacy AngularJS app to React and Redux with server-side rendering.
 
 ### CareLinx | Jul 2015 - May 2019 · _3 yrs 10 mos_
 
@@ -74,13 +74,12 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 
 #### Software Engineer
 
-- Led complete website modernization to achieve 100% mobile responsiveness and iOS/Android webview compatibility.
-- Built end-to-end healthcare workflows connecting caregivers and clients, including matching, messaging, scheduling, and workflow management.
-- Built real-time messaging between families and caregivers with push notifications and email alerts.
-- Implemented invoice system with automated overtime calculations, PDF generation, and email notifications.
-- Created background check integration with Backgrounds Online, streamlining caregiver verification process.
-- Reduced JavaScript bundle size by 50%, addressing frontend performance issues and improving application loading.
-- Mentored engineers on technical best practices and code quality standards.
+- Led a rebuild of the website so every page worked on mobile. CareLinx had no mobile app, and this let the company ship iOS and Android apps as a React Native app that loads the site in a webview, instead of rebuilding every screen natively.
+- Built caregiver matching and scheduling for a marketplace of about 100,000 caregivers, using Django REST Framework, PostgreSQL, and React.
+- Built real-time messaging between families and caregivers with Socket.IO, with push notifications and email alerts.
+- Built an invoicing system that calculates overtime, generates PDFs, and sends email notifications.
+- Integrated Backgrounds Online to run caregiver background checks.
+- Cut the largest JavaScript chunk from about 5 MB to 200 KB with route-based code-splitting.
 
 ### LawLogix Group, Inc. | Apr 2012 - Jul 2015 · _3 yrs 3 mos_
 
@@ -88,41 +87,28 @@ Senior Software Engineer with 18+ years of experience building customer-facing p
 
 #### Software Engineer
 
-- Migrated a legacy application to a modern Python/Django architecture, improving maintainability and performance.
-- Developed immigration case management dashboard streamlining legal workflow processes.
-- Implemented test-driven development practices for both frontend and backend applications.
-- Provided technical mentoring to new team members on development best practices.
+- Migrated a legacy application from 4D, a proprietary database platform, to Python and Django, making it faster and easier to maintain.
+- Built the case management dashboard in the company's main product, used by immigration lawyers and paralegals.
+- Introduced test-driven development to the team, using Python's unittest.
 
-### Early Career Experience | 2007 - 2012
+### Early career experience | 2007 - 2012
 
-**Chile-based Companies: Derco, AreaWeb, Quintec, TIDE S.A.**
+**Chile-based companies: Derco, AreaWeb, Quintec, TIDE S.A.**
 
-- Built e-commerce platforms for automotive industry with SAP integration.
-- Developed government healthcare systems for public hospitals including birth control tracking.
-- Created educational software and reporting systems for schools and colleges.
-- Gained expertise in diverse technologies including ASP.NET, Django, PHP, jQuery, PostgreSQL, and Adobe Flex.
+- Built e-commerce sites for the automotive industry, integrated with SAP.
+- Built healthcare systems for public hospitals, including birth control tracking.
+- Built educational software and reporting systems for schools and colleges.
+- Worked with ASP.NET, Django, PHP, jQuery, PostgreSQL, and Adobe Flex.
 
 ---
 
-## Side Projects
+## Side project
 
-### StickMonkey
+### StickMonkey | Jan 2024 - Sep 2025
 
-- Built a marketplace connecting student pilots with aircraft owners and managers for flight time-building opportunities.
-- Reached 10,000 registered users before discontinuing the project due to funding constraints.
-- Developed the application using SvelteKit, Tailwind CSS, Shadcn, and Supabase.
-
-### Workout Timer
-
-As a personal project, developed a timer for workouts using React Native and Expo.
-
-[https://github.com/hugotox/TabataTimer](https://github.com/hugotox/TabataTimer)
-
-### Phaser Tetris
-
-Recreated the classic Tetris game using Phaser and custom pixel-art sprites.
-
-[https://github.com/hugotox/phaser-tetris](https://github.com/hugotox/phaser-tetris)
+- Technical co-founder of a marketplace where student pilots find aircraft owners and managers to build flight time.
+- Built the whole product: database, backend, and frontend in SvelteKit, Tailwind CSS, shadcn, and Supabase, with Stripe payments and SendGrid email, deployed on Vercel.
+- Reached 10,000 registered users through organic search and Facebook ads. Shut down in September 2025 before earning revenue, for lack of funding.
 
 ---
 
@@ -130,17 +116,11 @@ Recreated the classic Tetris game using Phaser and custom pixel-art sprites.
 
 **B.S. Industrial Engineering (Computer Science Track)** | Universidad de La Frontera | Temuco, Chile | 2008
 
-- 5-year professional degree, including algorithms, data structures, distributed systems, databases, software engineering.
+- Five-year professional degree. Coursework included algorithms, data structures, distributed systems, databases, and software engineering.
 
 ---
 
-## Certifications
+## Additional information
 
-- Triplebyte certified Generalist Software Engineer.
-
----
-
-## Additional Information
-
-- **Languages:** Spanish, English
-- **Interests:** Technology, open-source projects, retro gaming, rock climbing, and fitness.
+- **Languages:** English, Spanish
+- **Interests:** Open-source projects, retro gaming, rock climbing, and fitness.
