@@ -35,13 +35,13 @@ Staff software engineer with 18+ years of experience building customer-facing pr
 - Tech lead for a team of three engineers that built the Patient Experience platform from scratch and shipped it to real patients in four months. Set the architecture and owned the full-stack implementation in React, TanStack Query/Router, NestJS, and PostgreSQL.
 - Chose TanStack Router and Query on Vite over Next.js because the portal didn't need server-side rendering, which gave the team caching and retries without writing them.
 - Shipped self-service scheduling, so patients book, reschedule, and cancel advocate visits without contacting the customer experience team.
-- Shipped patient dashboards, account management, and advocate progress tracking. The number of patients logging in each month rose about 50% over the old patient pages in the health app, and the platform now serves about 60,000 monthly active patients.
+- Raised monthly patient logins about 50% over the old patient pages in the health app, to about 60,000 monthly active patients, by shipping patient dashboards, account management, and advocate progress tracking.
 - Set up the platform's authentication and authorization (Auth0), feature flags (Statsig), error monitoring (Sentry), and automated unit and end-to-end tests.
 
 #### Senior Full-Stack Engineer | Oct 2024 - Oct 2025
 
 - Built AI-guided care planning with the Anthropic API, built into the advocate workflow and used by all of Solace's roughly 1,500 advocates to set patient goals, plan care, and decide next steps.
-- Replaced advocates' hand-written timesheets with AI-generated claim documentation. It collects a patient's completed tasks, visit transcripts, advocate notes, and completed care plan goals, then uses the Anthropic API to write them up in one standard format. All advocates use it for every claim, so claims no longer depend on each advocate's writing style.
+- Replaced hand-written timesheets with AI-generated claim documentation, used by all of Solace's roughly 1,500 advocates for every claim. It combines a patient's completed tasks, visit transcripts, advocate notes, and care plan goals and uses the Anthropic API to write them up in one standard format, so claims no longer depend on each advocate's writing style.
 - Started and led the design system, a 56-component library built on shadcn, published to npm, with Figma as the source of truth. Built the proof of concept and the first 10 components, got product and design to sign on, and rolled it out to four apps: Solace Health (advocates and physicians), Solace Admin, Solace Funnel, and Solace Patient. Every team now contributes components.
 - Code-split the advocate app, which shipped as a single 10 MB JavaScript chunk. The largest chunk is now about 200 KB.
 - Replaced OpenPhone with a Twilio integration for patient and advocate calls and texts, about 6,000 calls a month. Unlike OpenPhone, it lets the platform capture call transcripts, which feed the AI claim documentation.
@@ -104,7 +104,7 @@ Staff software engineer with 18+ years of experience building customer-facing pr
 
 ## Side project
 
-### StickMonkey | Jan 2024 - Sep 2025
+### StickMonkey | Jan 2024 - Oct 2024
 
 - Technical co-founder of a marketplace where student pilots find aircraft owners and managers to build flight time.
 - Built the whole product: database, backend, and frontend in SvelteKit, Tailwind CSS, shadcn, and Supabase, with Stripe payments and SendGrid email, deployed on Vercel.

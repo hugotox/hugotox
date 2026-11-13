@@ -6,7 +6,7 @@
 
 Staff full-stack engineer with 18+ years building healthcare platforms, marketplaces, and customer-facing products in TypeScript, React, Node.js, and Python. Most recently tech lead for a patient platform serving about 60,000 monthly active patients, and builder of AI features used by 1,500 healthcare advocates.
 
-📄 **Detailed resume:** [github.com/hugotox/hugotox/blob/master/hugo-pineda.md](https://github.com/hugotox/hugotox/blob/master/hugo-pineda.md)
+📄 **Detailed resume:** [github.com/hugotox/hugotox/blob/master/Hugo Pineda - Staff Software Engineer - extended.md](https://github.com/hugotox/hugotox/blob/master/Hugo%20Pineda%20-%20Staff%20Software%20Engineer%20-%20extended.md)
 
 ## Skills
 
@@ -19,10 +19,13 @@ Staff full-stack engineer with 18+ years building healthcare platforms, marketpl
 
 ### Solace Health | Oct 2024 - Present | Remote
 
-**Staff Full-Stack Engineer** (Oct 2025 - Present) · **Senior Full-Stack Engineer** (Oct 2024 - Oct 2025)
+**Staff Full-Stack Engineer** | Oct 2025 - Present
 
-- Tech lead for a team of three that built the Patient Experience platform from scratch and shipped it in four months. It serves about 60,000 monthly active patients, and the number of patients logging in each month rose about 50%.
-- Built AI care planning and AI claim documentation with the Anthropic API. All 1,500 advocates use both, and every claim now goes out in one standard format.
+- Grew monthly patient logins about 50%, to about 60,000 monthly active patients, as tech lead for a team of three that built the Patient Experience platform from scratch and shipped it in four months.
+
+**Senior Full-Stack Engineer** | Oct 2024 - Oct 2025
+
+- Shipped AI care planning and AI claim documentation used by all 1,500 advocates, built on the Anthropic API, so every claim now goes out in one standard format.
 - Started the design system, 56 shadcn components published to npm and used by four apps, with every team contributing.
 - Moved two apps to Vite, cutting production builds from about 2 minutes to 10 seconds, and code-split a 10 MB bundle down to a 200 KB largest chunk.
 - Replaced OpenPhone with Twilio for about 6,000 calls a month, capturing the transcripts that feed claim documentation.
@@ -47,11 +50,11 @@ Staff full-stack engineer with 18+ years building healthcare platforms, marketpl
 
 ### Earlier career | 2007 - 2012 | Chile
 
-- Software engineer at Derco, AreaWeb, Quintec, and TIDE S.A., building e-commerce, public hospital, and education software.
+- Built e-commerce, public hospital, and education software as a software engineer at Derco, AreaWeb, Quintec, and TIDE S.A.
 
 ## Side project
 
-**StickMonkey** | Jan 2024 - Sep 2025. Technical co-founder of a marketplace for student pilots. Built the whole product in SvelteKit and Supabase and reached 10,000 registered users.
+**StickMonkey** | Jan 2024 - Oct 2024 (side project, alongside full-time roles). Technical co-founder of a marketplace for student pilots. Built the whole product in SvelteKit and Supabase and reached 10,000 registered users.
 
 ## Education
 
